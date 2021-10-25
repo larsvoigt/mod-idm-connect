@@ -1,0 +1,7 @@
+{
+  "srvcId": "${artifactId}-${version}",
+  "nodeId": "localhost",
+  "descriptor": {
+    "exec": "java -jar ../mod-idm-connect/target/mod-idm-connect-fat.jar -Dhttp.port=%p"
+  }
+}
