@@ -1,0 +1,36 @@
+#%RAML 1.0
+
+title: IDM Connect API
+version: v1.0
+
+types:
+  contract: !include contract.json
+  contracts: !include contracts.json
+
+traits:
+  language: !include raml-util/traits/language.raml
+  pageable: !include raml-util/traits/pageable.raml
+  searchable: !include raml-util/traits/searchable.raml
+
+resourceTypes:
+  collection: !include raml-util/rtypes/collection.raml
+  collection-item: !include raml-util/rtypes/item-collection.raml
+
+/idm-connect:
+  /contract:
+    get:
+      is: [
+        searchable: {description: "", example: ""},
+        pageable
+      ]
+    type:
+      collection:
+        schemaCollection: contracts
+        schemaItem: contract
+        exampleCollection: !include examples/contracts.json
+        exampleItem: !include examples/contract.json
+    /{id}:
+      type:
+        collection-item:
+          schema: contract
+          exampleItem: !include examples/contract.json

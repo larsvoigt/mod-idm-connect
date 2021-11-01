@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Person object for walk-in contracts",
+  "properties": {
+    "firstName": {
+      "description": "First name",
+      "type": "string"
+    },
+    "lastName": {
+      "description": "Last name",
+      "type": "string"
+    },
+    "academicTitle": {
+      "description": "Academic title",
+      "type": "string"
+    },
+    "dateOfBirth": {
+      "description": "Date of birth",
+      "type": "string"
+    },
+    "address": {
+      "description": "Address",
+      "type": "object",
+      "$ref": "address.json"
+    },
+    "email": {
+      "description": "E-Mail address",
+      "type": "string"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "dateOfBirth",
+    "address",
+    "email"
+  ]
+}

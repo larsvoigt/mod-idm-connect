@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Address object for walk-in contracts",
+  "properties": {
+    "addressLine1": {
+      "description": "First address line",
+      "type": "string"
+    },
+    "addressLine2": {
+      "description": "Second address line",
+      "type": "string"
+    },
+    "zipCode": {
+      "description": "Zip code",
+      "type": "string"
+    },
+    "city": {
+      "description": "City name",
+      "type": "string"
+    },
+    "country": {
+      "description": "Country name",
+      "type": "string"
+    }
+  },
+  "required": [
+    "addressLine1",
+    "zipCode",
+    "city"
+  ]
+}
