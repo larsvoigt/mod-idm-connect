@@ -4,6 +4,57 @@
   "requires": [],
   "provides": [
     {
+      "id": "idm-connect",
+      "version": "1.0",
+      "handlers": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "pathPattern": "/idm-connect/contract",
+          "permissionsRequired": [
+            "idmconnect.contract.get"
+          ]
+        },
+        {
+          "methods": [
+            "POST"
+          ],
+          "pathPattern": "/idm-connect/contract",
+          "permissionsRequired": [
+            "idmconnect.contract.post"
+          ]
+        },
+        {
+          "methods": [
+            "GET"
+          ],
+          "pathPattern": "/idm-connect/contract/{id}",
+          "permissionsRequired": [
+            "idmconnect.contract.get"
+          ]
+        },
+        {
+          "methods": [
+            "PUT"
+          ],
+          "pathPattern": "/idm-connect/contract/{id}",
+          "permissionsRequired": [
+            "idmconnect.contract.put"
+          ]
+        },
+        {
+          "methods": [
+            "DELETE"
+          ],
+          "pathPattern": "/idm-connect/contract/{id}",
+          "permissionsRequired": [
+            "idmconnect.contract.delete"
+          ]
+        }
+      ]
+    },
+    {
       "id": "_tenant",
       "version": "2.0",
       "interfaceType": "system",
@@ -24,7 +75,47 @@
       ]
     }
   ],
-  "permissionSets": [],
+  "permissionSets": [
+    {
+      "permissionName": "idmconnect.contract.get",
+      "displayName": "idmconnect contract get",
+      "description": "View contracts"
+    },
+    {
+      "permissionName": "idmconnect.contract.post",
+      "displayName": "idmconnect contract create",
+      "description": "Create contracts"
+    },
+    {
+      "permissionName": "idmconnect.contract.put",
+      "displayName": "idmconnect contract put",
+      "description": "Edit contracts"
+    },
+    {
+      "permissionName": "idmconnect.contract.delete",
+      "displayName": "idmconnect contract delete",
+      "description": "Delete contracts"
+    },
+    {
+      "permissionName": "idmconnect.contract.all",
+      "displayName": "idmconnect contract all",
+      "description": "All permissions related to contracts",
+      "subPermissions": [
+        "idmconnect.contract.get",
+        "idmconnect.contract.post",
+        "idmconnect.contract.put",
+        "idmconnect.contract.delete"
+      ]
+    },
+    {
+      "permissionName": "idmconnect.all",
+      "displayName": "idmconnect all",
+      "description": "All permissions for the idm-connect module",
+      "subPermissions": [
+        "idmconnect.contract.all"
+      ]
+    }
+  ],
   "launchDescriptor": {
     "dockerImage": "${artifactId}:${version}",
     "dockerPull": false,

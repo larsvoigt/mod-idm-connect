@@ -1,0 +1,22 @@
+{
+  "personal": {
+    "firstName": "Meinard",
+    "lastName": "Tesch",
+    "academicTitle": "Dr.",
+    "dateOfBirth": "2003-03-11",
+    "address": {
+      "addressLine1": "Am Kühlhaus 74",
+      "addressLine2": "R/5",
+      "zipCode": "21784",
+      "city": "Geversdorf",
+      "country": "Germany"
+    },
+    "email": "teschmeinard@icloud.com"
+  },
+  "libraryCard": "85532947",
+  "uniLogin": "fuv38qlm",
+  "status": "pending",
+  "beginDate": "2015-10-23",
+  "endDate": "2017-10-23",
+  "comment": "A comment."
+}

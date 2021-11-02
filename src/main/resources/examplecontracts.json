@@ -1,0 +1,442 @@
+[
+  {
+    "id": "465ce0b3-10cd-4da2-8848-db85b63a0a32",
+    "personal": {
+      "firstName": "Lienhardt",
+      "lastName": "Führer",
+      "academicTitle": "Dr.",
+      "dateOfBirth": "1994-04-22",
+      "address": {
+        "addressLine1": "Peter-Schmitter-Straße 83",
+        "addressLine2": "F/8",
+        "zipCode": "88453",
+        "city": "Erolzheim",
+        "country": "Germany"
+      },
+      "email": "lienhardtfuehrer@aol.com"
+    },
+    "libraryCard": "79254581",
+    "uniLogin": "mhb76lxa",
+    "status": "created",
+    "beginDate": "2018-01-12",
+    "endDate": "2020-01-12",
+    "comment": "A comment."
+  },
+  {
+    "id": "7f5473c0-e7c3-427c-9202-ba97a1385e50",
+    "personal": {
+      "firstName": "Caroline",
+      "lastName": "Graf",
+      "dateOfBirth": "2004-10-26",
+      "address": {
+        "addressLine1": "Martin Luther-Straße 63",
+        "addressLine2": "V/5",
+        "zipCode": "67746",
+        "city": "Unterjeckenbach",
+        "country": "Germany"
+      },
+      "email": "carolinegraf@aol.com"
+    },
+    "libraryCard": "69136862",
+    "uniLogin": "xbe45xzv",
+    "status": "activated",
+    "beginDate": "2013-03-23",
+    "endDate": "2015-03-23",
+    "comment": "A comment."
+  },
+  {
+    "id": "066e5034-8403-4e51-99db-8378d3239a14",
+    "personal": {
+      "firstName": "Violetta",
+      "lastName": "Kunz",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "1999-10-27",
+      "address": {
+        "addressLine1": "Güglinger Straße 24",
+        "zipCode": "24852",
+        "city": "Sollerup",
+        "country": "Germany"
+      },
+      "email": "kunzvioletta@aol.com"
+    },
+    "libraryCard": "00149822",
+    "uniLogin": "ydt36ivt",
+    "status": "pending",
+    "beginDate": "2017-01-23",
+    "endDate": "2019-01-23",
+    "comment": "A comment."
+  },
+  {
+    "id": "5fd84d19-8c6c-45b8-bd79-69b90b2e35d5",
+    "personal": {
+      "firstName": "Meikel",
+      "lastName": "Lutz",
+      "academicTitle": "Dr.",
+      "dateOfBirth": "2000-08-29",
+      "address": {
+        "addressLine1": "Am Heidehof 91",
+        "zipCode": "54441",
+        "city": "Mannebach",
+        "country": "Germany"
+      },
+      "email": "lutzmeikel@hotmail.com"
+    },
+    "libraryCard": "44492207",
+    "uniLogin": "hen14wxw",
+    "status": "activated",
+    "beginDate": "2015-10-07",
+    "endDate": "2017-10-07",
+    "comment": "A comment."
+  },
+  {
+    "id": "961dad38-bdd2-4886-ab55-392df4ccfe39",
+    "personal": {
+      "firstName": "Meikel",
+      "lastName": "Führer",
+      "academicTitle": "Dr.",
+      "dateOfBirth": "1990-11-01",
+      "address": {
+        "addressLine1": "Bleibergquelle 54",
+        "zipCode": "25358",
+        "city": "Sommerland",
+        "country": "Germany"
+      },
+      "email": "meikelfuehrer@yahoo.com"
+    },
+    "libraryCard": "71150023",
+    "uniLogin": "esw29vlq",
+    "status": "pending",
+    "beginDate": "2010-04-06",
+    "endDate": "2012-04-06",
+    "comment": "A comment."
+  },
+  {
+    "id": "d4927c21-1bbb-4be0-905d-8b4fa02ccc42",
+    "personal": {
+      "firstName": "Brita",
+      "lastName": "Geßner",
+      "dateOfBirth": "1998-08-24",
+      "address": {
+        "addressLine1": "Nelkenstraße 95",
+        "zipCode": "54441",
+        "city": "Mannebach",
+        "country": "Germany"
+      },
+      "email": "brita_gessner@googlemail.com"
+    },
+    "libraryCard": "80844141",
+    "uniLogin": "zmo17mkt",
+    "status": "created",
+    "beginDate": "2017-11-17",
+    "endDate": "2019-11-17",
+    "comment": "A comment."
+  },
+  {
+    "id": "7d2ef5b7-88b2-48c2-b263-10dcd7692b8d",
+    "personal": {
+      "firstName": "Titus",
+      "lastName": "Woll",
+      "dateOfBirth": "1996-08-26",
+      "address": {
+        "addressLine1": "Willi-Steitz-Straße 42",
+        "addressLine2": "R/9",
+        "zipCode": "39288",
+        "city": "Burg",
+        "country": "Germany"
+      },
+      "email": "titus_woll@aol.com"
+    },
+    "libraryCard": "12778293",
+    "uniLogin": "byo87ynr",
+    "status": "created",
+    "beginDate": "2018-07-10",
+    "endDate": "2020-07-10",
+    "comment": "A comment."
+  },
+  {
+    "id": "a5d03581-835e-4b05-bd5e-11bd3f455e61",
+    "personal": {
+      "firstName": "Inka",
+      "lastName": "Adam",
+      "dateOfBirth": "1989-03-14",
+      "address": {
+        "addressLine1": "Oberallgäuer Platz 60",
+        "zipCode": "09114",
+        "city": "Chemnitz",
+        "country": "Germany"
+      },
+      "email": "inkaadam@googlemail.com"
+    },
+    "libraryCard": "89468934",
+    "uniLogin": "rij11asi",
+    "status": "activated",
+    "beginDate": "2017-01-23",
+    "endDate": "2019-01-23",
+    "comment": "A comment."
+  },
+  {
+    "id": "22d71965-4821-4dbe-b82c-963d44fab0e4",
+    "personal": {
+      "firstName": "Violetta",
+      "lastName": "Kunz",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "2005-02-08",
+      "address": {
+        "addressLine1": "Altenrathstraße 59",
+        "addressLine2": "E/2",
+        "zipCode": "82327",
+        "city": "Tutzing",
+        "country": "Germany"
+      },
+      "email": "kunzvioletta@googlemail.com"
+    },
+    "libraryCard": "40917582",
+    "uniLogin": "wwh27ybc",
+    "status": "activated",
+    "beginDate": "2018-05-08",
+    "endDate": "2020-05-08",
+    "comment": "A comment."
+  },
+  {
+    "id": "e35970e7-8ed8-4238-a0f2-8c9c2ae2ebde",
+    "personal": {
+      "firstName": "Lienhardt",
+      "lastName": "Führer",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "1990-10-11",
+      "address": {
+        "addressLine1": "Schwanenwik 62",
+        "zipCode": "18273",
+        "city": "Güstrow",
+        "country": "Germany"
+      },
+      "email": "lienhardt_fuehrer@aol.com"
+    },
+    "libraryCard": "79473551",
+    "uniLogin": "fpl05nkx",
+    "status": "conflict",
+    "beginDate": "2014-07-14",
+    "endDate": "2016-07-14",
+    "comment": "A comment."
+  },
+  {
+    "id": "ad0cfcbd-78dc-4a18-b8dd-f566ed6f3e49",
+    "personal": {
+      "firstName": "Inka",
+      "lastName": "Führer",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "2001-04-11",
+      "address": {
+        "addressLine1": "Am Hülserhof 18",
+        "zipCode": "39288",
+        "city": "Burg",
+        "country": "Germany"
+      },
+      "email": "fuehrerinka01@icloud.com"
+    },
+    "libraryCard": "97108192",
+    "uniLogin": "aem48jcp",
+    "status": "created",
+    "beginDate": "2017-12-29",
+    "endDate": "2019-12-29",
+    "comment": "A comment."
+  },
+  {
+    "id": "96d83b5a-6bc8-4ebc-b1b4-af9cae19c21d",
+    "personal": {
+      "firstName": "Kriemhilde",
+      "lastName": "Valentin",
+      "academicTitle": "Dr.",
+      "dateOfBirth": "1985-10-25",
+      "address": {
+        "addressLine1": "Würdinger Straße 71",
+        "zipCode": "09328",
+        "city": "Lunzenau",
+        "country": "Germany"
+      },
+      "email": "kriemhildevalentin@yahoo.com"
+    },
+    "libraryCard": "31206008",
+    "uniLogin": "slw88khy",
+    "status": "activated",
+    "beginDate": "2018-03-09",
+    "endDate": "2020-03-09",
+    "comment": "A comment."
+  },
+  {
+    "id": "5fd1394d-73a3-4e24-bb17-5150c8e9f599",
+    "personal": {
+      "firstName": "Roy",
+      "lastName": "Geßner",
+      "dateOfBirth": "1985-06-24",
+      "address": {
+        "addressLine1": "Hermann-Küttner-Straße 5",
+        "zipCode": "09328",
+        "city": "Lunzenau",
+        "country": "Germany"
+      },
+      "email": "roy-gessner@hotmail.com"
+    },
+    "libraryCard": "88497352",
+    "uniLogin": "xhp39jqp",
+    "status": "created",
+    "beginDate": "2012-06-05",
+    "endDate": "2014-06-05",
+    "comment": "A comment."
+  },
+  {
+    "id": "bca32d11-7852-45a0-80dd-b903ab00972b",
+    "personal": {
+      "firstName": "Lienhardt",
+      "lastName": "Hannig",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "1992-01-24",
+      "address": {
+        "addressLine1": "Frauentorgraben 16",
+        "zipCode": "09328",
+        "city": "Lunzenau",
+        "country": "Germany"
+      },
+      "email": "lienhardthannig@yahoo.com"
+    },
+    "libraryCard": "55301541",
+    "uniLogin": "jia03cql",
+    "status": "created",
+    "beginDate": "2010-10-03",
+    "endDate": "2012-10-03",
+    "comment": "A comment."
+  },
+  {
+    "id": "fe0b75e1-246f-40aa-ba44-24311bd3c457",
+    "personal": {
+      "firstName": "Arnd",
+      "lastName": "Vorwerk",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "1988-11-18",
+      "address": {
+        "addressLine1": "Heinrich-Scheele-Straße 34",
+        "addressLine2": "U/3",
+        "zipCode": "09114",
+        "city": "Chemnitz",
+        "country": "Germany"
+      },
+      "email": "arnd-vorwerk@yahoo.com"
+    },
+    "libraryCard": "17854488",
+    "uniLogin": "ryn12feh",
+    "status": "pending",
+    "beginDate": "2011-05-06",
+    "endDate": "2013-05-06",
+    "comment": "A comment."
+  },
+  {
+    "id": "bbd6157e-71ae-4590-bf91-d22df38172d9",
+    "personal": {
+      "firstName": "Caroline",
+      "lastName": "Hannig",
+      "dateOfBirth": "1992-01-22",
+      "address": {
+        "addressLine1": "Hölleinweg 100",
+        "zipCode": "54441",
+        "city": "Mannebach",
+        "country": "Germany"
+      },
+      "email": "hannigcaroline@icloud.com"
+    },
+    "libraryCard": "37370837",
+    "uniLogin": "eua09wga",
+    "status": "activated",
+    "beginDate": "2018-01-25",
+    "endDate": "2020-01-25",
+    "comment": "A comment."
+  },
+  {
+    "id": "6d49a75b-4609-4ea7-adc2-f4332335bcf8",
+    "personal": {
+      "firstName": "Martrud",
+      "lastName": "Böhmer",
+      "dateOfBirth": "1993-11-04",
+      "address": {
+        "addressLine1": "Pfarrer-Schlegler-Straße 9",
+        "zipCode": "09114",
+        "city": "Chemnitz",
+        "country": "Germany"
+      },
+      "email": "boehmer-martrud93@googlemail.com"
+    },
+    "libraryCard": "99713293",
+    "uniLogin": "eqq92qqk",
+    "status": "conflict",
+    "beginDate": "2018-08-19",
+    "endDate": "2020-08-19",
+    "comment": "A comment."
+  },
+  {
+    "id": "6b842509-7ddf-4d43-b53a-c97443aa8bb5",
+    "personal": {
+      "firstName": "Martrud",
+      "lastName": "Woll",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "1998-08-19",
+      "address": {
+        "addressLine1": "Wieser 43",
+        "addressLine2": "T/3",
+        "zipCode": "09328",
+        "city": "Lunzenau",
+        "country": "Germany"
+      },
+      "email": "woll-martrud@icloud.com"
+    },
+    "libraryCard": "21933791",
+    "uniLogin": "dyx87dyo",
+    "status": "created",
+    "beginDate": "2017-03-07",
+    "endDate": "2019-03-07",
+    "comment": "A comment."
+  },
+  {
+    "id": "a11f000b-6dd7-48d9-b685-2e934a497047",
+    "personal": {
+      "firstName": "Walfried",
+      "lastName": "Graf",
+      "academicTitle": "Dr.",
+      "dateOfBirth": "1991-11-21",
+      "address": {
+        "addressLine1": "Meschwitzstraße 29",
+        "addressLine2": "Z/5",
+        "zipCode": "19294",
+        "city": "Eldena an der Elde",
+        "country": "Germany"
+      },
+      "email": "graf.walfried@yahoo.com"
+    },
+    "libraryCard": "71538002",
+    "uniLogin": "vkt44rdi",
+    "status": "created",
+    "beginDate": "2017-04-25",
+    "endDate": "2019-04-25",
+    "comment": "A comment."
+  },
+  {
+    "id": "8c08a4ee-e8ce-4fb2-823a-05393c429ee8",
+    "personal": {
+      "firstName": "Inka",
+      "lastName": "Hannig",
+      "academicTitle": "Prof.",
+      "dateOfBirth": "1984-05-02",
+      "address": {
+        "addressLine1": "Sterzinger Straße 47",
+        "zipCode": "71263",
+        "city": "Weil der Stadt",
+        "country": "Germany"
+      },
+      "email": "inkahannig@googlemail.com"
+    },
+    "libraryCard": "35201590",
+    "uniLogin": "ycl90hrq",
+    "status": "created",
+    "beginDate": "2019-02-25",
+    "endDate": "2021-02-25",
+    "comment": "A comment."
+  }
+]

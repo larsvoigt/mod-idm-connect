@@ -1,3 +1,13 @@
 {
-  "tables": []
+  "tables": [
+    {
+      "tableName": "contract",
+      "withMetadata": true,
+      "likeIndex": [
+        {
+          "fieldName": "status"
+        }
+      ]
+    }
+  ]
 }
