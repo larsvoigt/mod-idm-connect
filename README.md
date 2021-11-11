@@ -9,3 +9,8 @@ file "[LICENSE](LICENSE)" for more information.
 
 The module manages walk-in contracts. It is tailored to the specific requirements at Leipzig
 University Library. You may not find this module useful in different environments.
+
+## Configuration
+
+For the module to be able to connect to the external IDM system you need to provide `IDM_URL`
+and `IDM_TOKEN` environment variables.
