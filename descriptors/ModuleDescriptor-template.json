@@ -51,6 +51,15 @@
           "permissionsRequired": [
             "idmconnect.contract.delete"
           ]
+        },
+        {
+          "methods": [
+            "GET"
+          ],
+          "pathPattern": "/idm-connect/searchidm",
+          "permissionsRequired": [
+            "idmconnect.searchidm.get"
+          ]
         }
       ]
     },
@@ -97,6 +106,11 @@
       "description": "Delete contracts"
     },
     {
+      "permissionName": "idmconnect.searchidm.get",
+      "displayName": "idmconnect searchidm get",
+      "description": "Search external IDM system"
+    },
+    {
       "permissionName": "idmconnect.contract.all",
       "displayName": "idmconnect contract all",
       "description": "All permissions related to contracts",
@@ -108,11 +122,20 @@
       ]
     },
     {
+      "permissionName": "idmconnect.searchidm.all",
+      "displayName": "idmconnect searchidm all",
+      "description": "All permissions related to searchidm",
+      "subPermissions": [
+        "idmconnect.searchidm.get"
+      ]
+    },
+    {
       "permissionName": "idmconnect.all",
       "displayName": "idmconnect all",
       "description": "All permissions for the idm-connect module",
       "subPermissions": [
-        "idmconnect.contract.all"
+        "idmconnect.contract.all",
+        "idmconnect.searchidm.all"
       ]
     }
   ],

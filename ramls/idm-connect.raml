@@ -34,3 +34,33 @@ resourceTypes:
         collection-item:
           schema: contract
           exampleItem: !include examples/contract.json
+  /searchidm:
+    description: Query external IDM system for existing users
+    get:
+      queryParameters:
+        firstname:
+          description: Users first name
+          example: John
+        lastname:
+          description: Users last name
+          example: Doe
+        dateOfBirth:
+          description: Users date of birth
+          example: 2015-12-24
+      responses:
+        200:
+          description: IDM returned OK
+          body:
+            application/json:
+        400:
+          description: IDM returned Bad Request
+          body:
+            application/json:
+        401:
+          description: IDM returned Unauthorized
+          body:
+            application/json:
+        500:
+          description: Internal server error
+          body:
+            text/plain:
