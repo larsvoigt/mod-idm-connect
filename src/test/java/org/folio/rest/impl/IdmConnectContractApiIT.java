@@ -36,7 +36,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(VertxUnitRunner.class)
-public class IdmConnectApiIT {
+public class IdmConnectContractApiIT {
 
   private static final String HOST = "http://localhost";
   private static final String TENANT = "diku";
