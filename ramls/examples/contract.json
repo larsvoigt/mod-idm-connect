@@ -4,7 +4,7 @@
     "firstName": "Lienhardt",
     "lastName": "Führer",
     "academicTitle": "Dr.",
-    "dateOfBirth": "1994-04-22",
+    "dateOfBirth": "19940422",
     "address": {
       "addressLine1": "Peter-Schmitter-Straße 83",
       "addressLine2": "F/8",
@@ -17,8 +17,8 @@
   "libraryCard": "79254581",
   "uniLogin": "mhb76lxa",
   "status": "created",
-  "beginDate": "2018-01-12",
-  "endDate": "2020-01-12",
+  "beginDate": "20180112",
+  "endDate": "20200112",
   "comment": "A comment.",
   "metadata": {
     "createdDate": "2021-11-01T17:39:12.364+00:00",
